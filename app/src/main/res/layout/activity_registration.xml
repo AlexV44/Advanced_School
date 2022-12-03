@@ -7,23 +7,26 @@
     android:background="@drawable/gradient_1"
     tools:context=".Registration">
 
-    <TextView
-        android:id="@+id/tvSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:fontFamily="monospace"
-        android:text="@string/registerText"
-        android:textColor="#EFEFEF"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073" />
+    <!-- TODO: Add Class code and School code-->
 
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:fontFamily="monospace"
+            android:text="@string/registerText"
+            android:textColor="#EFEFEF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.073" />
+
+        <!-- TODO: Change Name to Username-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/nameField"
         style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
@@ -51,6 +54,7 @@
             android:textColorHint="#616161" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- TODO: delete Surname-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/surnameField"
         style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"

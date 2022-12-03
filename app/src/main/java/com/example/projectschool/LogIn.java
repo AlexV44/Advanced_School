@@ -12,24 +12,16 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener {
 
     Button btnGoRegistr;
     Button btnSign;
-    //TextView tfAccName;
-   // TextView tfPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
-
-        //tfAccName = (TextView) findViewById(R.id.tfAccName);
-
-        //tfPass = (TextView) findViewById(R.id.tfPass);
-
         btnGoRegistr = (Button) findViewById(R.id.btnGoRegistr);
         btnGoRegistr.setOnClickListener(this);
 
         btnSign = (Button) findViewById(R.id.btnSign);
 
-       // tfPass = (TextView) findViewById(R.id.tfPass);
         btnSign.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
