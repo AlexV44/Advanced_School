@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/catalog"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:id="@+id/catalog"/>
+    <item android:title="@string/news"
+        android:icon="@drawable/ic_baseline_newspaper_24"
+        android:id="@+id/news"/>
+    <item android:title="@string/others"
+        android:icon="@drawable/ic_twotone_view_stream_24"
+        android:id="@+id/others"/>
+    <item android:title="@string/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/profile"/>
+</menu>
